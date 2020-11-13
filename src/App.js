@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import React, { Component } from 'react'
+import styled from 'styled-components'
+import './index.css';
+import Navbar from './Components/navbar'
+import Home from './Components/pages/home'
+import About from './Components/pages/about'
+import History from './Components/pages/history'
+import Symbol from './Components/pages/symbol'
+import Activity from './Components/pages/activity'
+import Organizer from './Components/pages/organizer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Navbar/>
+        <Home/>
+        <About/>
+        <History />
+        <Symbol />
+        <Activity />
+        <Organizer/>
+      </React.Fragment>
+    )
+  }
 }
-
-export default App;
