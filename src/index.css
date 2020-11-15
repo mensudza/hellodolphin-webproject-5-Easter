@@ -8,8 +8,109 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #b1e1fc;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.test2 {
+  position: relative;
+  width: 100%;
+}
+.counter{
+  position: relative;
+
+}
+.ac{
+  position: absolute;
+  flex: 1;
+  display:block;
+  right: 40%;
+  top:380%;
+  width :20%;
+  filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.25));
+}
+.cloud3{
+  position: absolute;
+  display:block;
+  top:378%;
+  right: 54%;
+  height:30%; 
+  filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.25));
+  transform: rotate(5.4deg);
+}
+.rabbit4 {
+  position: absolute;
+  display:block;
+  text-align: center;
+  top:30%;
+  right: 45%;
+  width :17%;
+  height:52%; 
+  filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.25));
+  }
+
+.cloud2{
+  position: absolute;
+  display:block;
+  top:-25%;
+  right: 75%;
+  height:40%; 
+  filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cloud2l{
+  position: absolute;
+  display:block;
+  top:-3%;
+  left: 70%;
+  height:30%; 
+  filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.25));
+}
+
+.br{
+  position: absolute;
+  display:block;
+  top:-10%;
+  right: -0%;
+  height:35%; 
+  /* filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+.footer{
+  width: 100%;
+  background-color: #FFE3AC;
+  padding: 2em;
+}
+.footer h2{
+  font-family: Mali;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer p{
+  font-family: Mali;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  margin:2em;
+  margin-top:1.5em;
+  color: #000000;
+}
+
+.flex{
+  display:flex;
+}
+.content-center{
+  justify-content: center;
+}
+
