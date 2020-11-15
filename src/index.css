@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -12,4 +13,33 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+normal {
+  color: red;
+}
+
+p {
+  font-family: "Mali";
+  font-weight: bold;
+}
+.prayuth {
+  position: absolute;
+  animation: mymove 20s 3s infinite;
+}
+.prawit {
+  position: absolute;
+  animation: mymove 20s infinite;
+}
+.pranuth {
+  position: absolute;
+  animation: mymove 20s 2s infinite;
+}
+
+@keyframes mymove {
+  0%{ left: -33vh;}
+  25%{ left: -15vh;}
+  50%{ left: -33vh;}
+  75%{ left: -15vh;}
+  100%{ left: -33vh;}
 }

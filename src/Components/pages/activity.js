@@ -5,7 +5,7 @@ const Container = styled.div`
   background-color: ${props => props.bgcolor};
   width: 100%;
   height:auto;
-  min-height: 90vh; 
+  min-height: 100vh; 
 text-align:center; 
 `
 

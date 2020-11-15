@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React, { Component } from 'react'
-import styled from 'styled-components'
 import './index.css';
 import Navbar from './Components/navbar'
 import Home from './Components/pages/home'
@@ -14,13 +13,13 @@ export default class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar/>
-        <Home/>
-        <About/>
+        <Navbar />
+        <Home />
+        <About />
         <History />
         <Symbol />
         <Activity />
-        <Organizer/>
+        <Organizer />
       </React.Fragment>
     )
   }
