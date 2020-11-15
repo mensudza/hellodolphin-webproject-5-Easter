@@ -42,22 +42,21 @@ p {
 }
 .counter{
   position: relative;
-
+  
 }
 .ac{
   position: absolute;
-  flex: 1;
   display:block;
   right: 40%;
-  top:380%;
+  top:10%;
   width :20%;
   filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.25));
 }
 .cloud3{
   position: absolute;
   display:block;
-  top:378%;
-  right: 54%;
+  top:3%;
+  right: 58%;
   height:30%; 
   filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.25));
   transform: rotate(5.4deg);
@@ -143,3 +142,17 @@ p {
   75%{ left: -15vh;}
   100%{ left: -33vh;}
 }
+
+.counter2{
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+.rabbit-fly{
+  position: absolute;
+  right: 40%;
+  top:30%;
+  width :20%;
+  filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.25));
+}
+

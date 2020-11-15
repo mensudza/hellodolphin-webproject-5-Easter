@@ -42,6 +42,7 @@ const Mascot = styled.img`
     position :absolute;
 `
 const Contentblock = styled.div`
+    padding : 0em;
     position: center;
     background-color: #F5CCD2;
     border-radius: 50px;
