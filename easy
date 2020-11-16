@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git pull https://github.com/Hello-Dolphin/hellodolphin-webproject-5-Easter.git
+sudo docker build -t easter0 .
+sudo docker restart 742
